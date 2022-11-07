@@ -1,4 +1,4 @@
 FROM openjdk:8-jdk-alpine
 
-ADD target/spring-boot-docker.jar spring-boot-docker.jar
-CMD ["java","-jar","/spring-boot-docker.jar"]
+ADD target/springboot-image-github.jar springboot-image-github.jar
+CMD ["java","-jar","/springboot-image-github.jar"]
